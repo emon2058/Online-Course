@@ -1,0 +1,21 @@
+.header{
+    background-image: url("../../images/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+.header h1,p{
+    margin-left: 30px;
+}
+.header p{
+    width: 250px;
+}
+
+@media only screen and (max-width: 450px) {
+ .header{
+     background-size:contain;
+ }   
+ .header h1,p{
+     margin-left: 0px;
+ }
+}
