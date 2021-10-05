@@ -10,7 +10,12 @@
 .header p{
     width: 250px;
 }
-
+nav a{
+    text-decoration: none;
+    color: gray;
+    font-weight: 400;
+    margin-left: 20px;
+}
 @media only screen and (max-width: 450px) {
  .header{
      background-size:contain;
