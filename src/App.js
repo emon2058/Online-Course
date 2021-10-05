@@ -11,6 +11,8 @@ import {
 import Courses from './components/Courses/Courses';
 import About from './components/About/About';
 import Contact from './components/Contact/Contact';
+import NotFound from './components/NotFound/NotFound';
+
 function App() {
   return (
     <div className="App">
@@ -31,6 +33,9 @@ function App() {
           </Route>
           <Route path="/contact">
             <Contact></Contact>
+          </Route>
+          <Route path="*">
+            <NotFound></NotFound>
           </Route>
         </Switch>
       </Router>
